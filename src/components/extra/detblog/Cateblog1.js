@@ -8,7 +8,6 @@ import {
   
 } from "../../../actions/categoriaActions";
 
-import { Link } from 'react-router-dom';
 import Spinner from "../../common/Spinner";
 
 
@@ -121,7 +120,7 @@ class Cateblog1 extends Component {
 
           
             const { categoriafiles, loading } = this.props.categoriafile;
-            const { currentPage, todosPerPage } = this.state;
+            
 
             
           

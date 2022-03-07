@@ -1,6 +1,6 @@
 
 import React, { Component } from "react";
-import {Slide,Slider,Caption,SideNav,SideNavItem, Button,Icon,Collapsible,CollapsibleItem,Dropdown,Divider } from 'react-materialize';
+import {Slide,Slider,Caption } from 'react-materialize';
 
 import M from  'materialize-css/dist/js/materialize.min.js';
 //import Image from './Image'
@@ -8,19 +8,19 @@ import p1 from './5.jpg';
 import p2 from './6.jpg';
 import p3 from './7.jpg';
 import p4 from './8.jpg';
-import { Link } from "react-router-dom";
+
 
 import { Grid, Typography  } from '@material-ui/core';
 import Card from "../Card/Card";
 import CardHeader from "../Card/CardHeader.js";
 import CardBody from "../Card/CardBody.js";
-import CardFooter from "../Card/CardFooter.js";
+
 import GridItem from "../Grid/GridItem";
 import GridContainer from "../Grid/GridContainer.js";
 
 
 
-import CardMedia from '@material-ui/core/CardMedia';
+
 
 
 
@@ -59,7 +59,7 @@ class Contacto extends Component
             <Slide image={<img  alt={p1} src={p1} />}>
                 <Caption>
                     <h3>
-                        Municipalidad Distrital de Chamaca!
+                        Accesorios Sfsystem SAC!
                     </h3>
                     <h5 className="light grey-text text-lighten-3">
                            Contacto 
@@ -89,7 +89,7 @@ class Contacto extends Component
             <Slide image={<img  alt={p4} src={p4} />}>
                 <Caption>
                     <h3>
-                        Iniciando Obras!
+                        Facturacion Electronica !
                     </h3>
                     <h5 className="light grey-text text-lighten-3">
                         Inicamos hoy mismo .
@@ -103,7 +103,7 @@ class Contacto extends Component
                         <Grid item xs={12} sm={4} data-aos="fade-up">
                         <Card>
                             <CardHeader color="warning">
-                            <h4 >Alcalde</h4>                            
+                            <h4 >Gerente</h4>                            
                             </CardHeader>
                         
                         
@@ -111,10 +111,10 @@ class Contacto extends Component
                             <GridContainer>
                                 <GridItem xs={12} sm={12} >                                
                                         <Typography variant="h6" gutterBottom aling='center'>
-                                            ALCALDE : ANTONIO HUAMAN ARIAS                                    
+                                            FRANCISCO LEO CHAMBI VILCA
                                         </Typography> 
                                         <Typography variant="body1" gutterBottom aling='center'>
-                                                          Gestion 2019-2022  
+                                                          2019-2022  
                                          </Typography>  
                                 </GridItem>                            
                             </GridContainer>                                        
@@ -167,14 +167,14 @@ class Contacto extends Component
                                 <GridItem xs={12} sm={12} >
                                 <Typography variant="body1" gutterBottom aling='center'>
                                        
-                                       Direccion : CAL. CONCEPCION S/N CUSCO Chamaca
+                                       Direccion : CAL. MARIANO MELGAR 205
                                        <br/>                                       
-                                       Chumbivilcas-Cusco
+                                        CERRO COLORADO - AREQUIPA
                                        <br/>                                       
                                        Atención: 
                                        <br/>                                       
-                                         * Lunes a Jueves : 8:00 am a 1:00 pm - 2:00 pm a  5 pm
-                                         * Viernes : 8:00 am a 3:00 pm 
+                                         * Lunes a Viernes : 8:00 am a 1:00 pm - 2:00 pm a  5 pm
+                                         
                                        <br/> 
                                         
                                 </Typography> 
@@ -196,13 +196,13 @@ class Contacto extends Component
                             <CardBody>
                             <GridContainer>
                                 <GridItem xs={12} sm={4} > 
-                                    <img className="img-fluid" src='https://adryan3.sytes.net/upload/ubi.jpeg'/>  
+                                    <img className="img-fluid" src='https://adryan3.sytes.net/upload/file-1646673530262.png'/>  
                                  </GridItem>                            
                                  <GridItem xs={12} sm={4} > 
-                                    <img className="img-fluid" src='https://adryan3.sytes.net/ima/POBLCACCC.jpeg'/>  
+                                    <img className="img-fluid" src='https://adryan3.sytes.net/upload/file-1646673779428.jpeg'/>  
                                  </GridItem>                            
                                  <GridItem xs={12} sm={4} > 
-                                    <img className="img-fluid" src='https://adryan3.sytes.net/upload/ubi.jpeg'/>  
+                                    <img className="img-fluid" src='https://adryan3.sytes.net/upload/file-1646673530262.png'/>  
                                  </GridItem>                            
                             </GridContainer>                                        
                             </CardBody>                            

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import { useForm } from 'react-hook-form';
+
 //simport {Button} from 'primereact/button';
 
-import { getCurrentCategoria, addCategoria } from "../actions/categoriaActions";
+import {  addCategoria } from "../actions/categoriaActions";
 //import { useDispatch } from "react-redux";
 
 import { useDispatch, useSelector } from 'react-redux'
@@ -13,7 +13,7 @@ import { useDispatch, useSelector } from 'react-redux'
 
 import ViewCateHooks from "./extra/ViewCateHooks";
 
-import { Link } from 'react-router-dom';
+
 //import GridItem from "../:"
 
 
@@ -55,8 +55,8 @@ const useStyles = makeStyles(styles);
 const Catego = () => {
 
   const classes = useStyles();
-  const { register, errors, handleSubmit } = useForm();
-  const [Entradas, setEntradas] = useState([])
+  
+  
 
   const dispatch = useDispatch();
   const cate = useSelector(store => store.categoriafile.categoriafiles);

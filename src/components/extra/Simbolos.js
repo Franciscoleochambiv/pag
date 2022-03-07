@@ -1,6 +1,6 @@
 
 import React, { Component } from "react";
-import {Slide,Slider,Caption,SideNav,SideNavItem, Icon,Collapsible,CollapsibleItem,Dropdown,Divider } from 'react-materialize';
+import {Slide,Slider,Caption } from 'react-materialize';
 
 import M from  'materialize-css/dist/js/materialize.min.js';
 //import Image from './Image'
@@ -8,13 +8,13 @@ import p1 from './5.jpg';
 import p2 from './6.jpg';
 import p3 from './7.jpg';
 import p4 from './8.jpg';
-import { Link } from "react-router-dom";
-import { useMediaQuery, Grid, Typography  } from '@material-ui/core';
+
+import {  Grid, Typography  } from '@material-ui/core';
 
 import Card from "../Card/Card";
 import CardHeader from "../Card/CardHeader.js";
 import CardBody from "../Card/CardBody.js";
-import CardFooter from "../Card/CardFooter.js";
+
 import GridItem from "../Grid/GridItem";
 import GridContainer from "../Grid/GridContainer.js";
 
@@ -111,12 +111,13 @@ class Simbolos extends Component
                             <GridContainer>
                                 <GridItem xs={6} sm={12} >                                
                                         <Typography variant="h6" gutterBottom aling='center'>
-                                             DISTRITO DE CHAMACA CHUMBIVILCAS                                   
+                                        EMPRESA AREQUIPEÑA
+                                            
                                         </Typography> 
                                         <Typography variant="body1" gutterBottom aling='center'>
                                              BANDERA
                                              <br/> 
-                                             <img className="img-fluid" src={"https://adryan3.sytes.net/upload/file-1624629753690.png"}/>  
+                                             <img className="img-fluid" src={"https://adryan3.sytes.net/upload/file-1646672092045.jpeg"}/>  
                                              <br/> 
                                                                                           
                                          </Typography> 
@@ -144,12 +145,12 @@ class Simbolos extends Component
                             <GridContainer>
                                 <GridItem xs={6} sm={12} >                                
                                         <Typography variant="h6" gutterBottom aling='center'>
-                                             DISTRITO DE CHAMACA CHUMBIVILCAS                                   
+                                            EMPRESA AREQUIPEÑA
                                         </Typography> 
                                         <Typography variant="body1" gutterBottom aling='center'>                                            
                                              ESCUDO
                                              <br/> 
-                                             <img className="img-fluid" src={"https://adryan3.sytes.net/upload/file-1624629760681.jpeg"}/>                                               
+                                             <img className="img-fluid" src={"https://adryan3.sytes.net/upload/file-1646672414555.png"}/>                                               
                                                                                           
                                          </Typography> 
 

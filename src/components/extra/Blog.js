@@ -26,22 +26,16 @@ import { red } from '@material-ui/core/colors';
 
 
 
-import p1 from './5.jpg';
-import p2 from './6.jpg';
-import p3 from './7.jpg';
-import p4 from './8.jpg';
 import p45 from './45.jpg';
 
 import { Link } from "react-router-dom";
-import { connect } from "react-redux"
-import PropTypes from "prop-types";
 
 import { getCurrentShoping } from "../../actions/shopingActions";
-import { logoutUser } from '../../actions/authActions';
+
 import ReactPaginate from 'react-paginate';
 
 import Cateblog from './detblog/Cateblog';
-import Posts from '../post/Post';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -314,7 +308,7 @@ const Blog = () => {
           <Paper elevation={0} className={classes.paper}>
             <Card>
               <CardHeader color="primary">
-                <h5 >Publicaciones Municipalidad Distrital de Chamaca</h5>
+                <h5 >Publicaciones ACCESORIOS SFSYSTEM SAC</h5>
               </CardHeader>
             </Card>
 
@@ -334,20 +328,20 @@ const Blog = () => {
 
             <Card>
               <CardHeader color="warning">
-                <h4 >Maquinarias</h4>
+                <h4 >Programacion</h4>
               </CardHeader>
               <CardBody>
                 <GridContainer>
                   <GridItem xs={12} sm={12} >
                     <CardMedia
                       className={classes.media}
-                      image="https://adryan3.sytes.net/ima/maquinarias.jpeg"
+                      image="https://adryan3.sytes.net/upload/file-1646674605830.jpeg"
                       title="imagen"
                     />
 
                     <Typography variant="h6" gutterBottom aling='center'>
                       <Link style={{ color: '#a22c58' }} className="nav-link" to="/">
-                        Maquinarias
+                        ACCESORIOS
                       </Link>
                     </Typography>
 
@@ -355,73 +349,9 @@ const Blog = () => {
                 </GridContainer>
               </CardBody>
             </Card>
-            <Card>
-              <CardHeader color="info">
-                <h4 >TRABAJA PERÚ</h4>
-              </CardHeader>
-              <CardBody>
-                <GridContainer>
-                  <GridItem xs={12} sm={12} >
-                    <CardMedia
-                      className={classes.media}
-                      image="https://adryan3.sytes.net/ima/trabaja-peru.jpeg"
-                      title="imagen"
-                    />
-                    <Typography variant="body1" gutterBottom aling='center'>
-                      <Link style={{ color: '#a22c58' }} className="nav-link" to="/trabajaperu">
-                        TRABAJA PERÚ
-                      </Link>
-                    </Typography>
-                  </GridItem>
-                </GridContainer>
-              </CardBody>
-            </Card>
-
-            <Card>
-              <CardHeader color="primary">
-                <h4 >Doctor Chamaca</h4>
-              </CardHeader>
-              <CardBody>
-                <GridContainer>
-                  <GridItem xs={12} sm={12} >
-                    <CardMedia
-                      className={classes.media}
-                      image="https://adryan3.sytes.net/ima/DR-CHAMACA.jpeg"
-                      title="imagen"
-                    />
-                    <Typography variant="body1" gutterBottom aling='center'>
-                      <Link style={{ color: '#a22c58' }} className="nav-link" to="/doctor">
-                        DOCTOR CHAMACA
-                      </Link>
-
-                    </Typography>
-                  </GridItem>
-                </GridContainer>
-              </CardBody>
-            </Card>
-            <Card>
-              <CardHeader color="danger">
-                <h4 >Seguridad Ciudadana</h4>
-              </CardHeader>
-              <CardBody>
-                <GridContainer>
-                  <GridItem xs={12} sm={12} >
-                    <CardMedia
-                      className={classes.media}
-                      image="https://adryan3.sytes.net/ima/SEGUR.jpeg "
-                      title="imagen"
-                    />
-                    <Typography variant="body1" gutterBottom aling='center'>
-                      <Link style={{ color: '#a22c58' }} className="nav-link" to="/seguridadciudadana">
-                        SEGURIDAD CIUDADANA
-                      </Link>
-
-                    </Typography>
-                  </GridItem>
-                </GridContainer>
-              </CardBody>
-            </Card>
-
+            
+           
+          
             <Card>
               <CardHeader color="success">
                 <h4 >CORONAVIRUS COVID19 RE INFECCIÓN: podemos re-infectarnos? </h4>

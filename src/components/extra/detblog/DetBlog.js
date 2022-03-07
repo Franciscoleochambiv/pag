@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import Spinner from '../../common/Spinner';
 import { getShopingByHandle } from '../../../actions/shopingActions';
 import ReactHtmlParser from "react-html-parser";
-import p4 from '../8.jpg';
+
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 

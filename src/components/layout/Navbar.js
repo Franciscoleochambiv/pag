@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { logoutUser } from '../../actions/authActions';
 import { clearCurrentProfile } from '../../actions/profileActions';
-import { Slide, Slider, Caption, SideNav, SideNavItem, Button, Icon, Collapsible, CollapsibleItem, Dropdown, Divider } from 'react-materialize';
+import {  SideNavItem, Icon,  Dropdown, Divider } from 'react-materialize';
 //import p1 from '../extra/1.jpg';
 
 import M from 'materialize-css/dist/js/materialize.min.js';

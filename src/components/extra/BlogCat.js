@@ -4,10 +4,6 @@ import React, { Component } from "react";
 
 //import M from  'materialize-css/dist/js/materialize.min.js';
 //import Image from './Image'
-import p1 from './5.jpg';
-import p2 from './6.jpg';
-import p3 from './7.jpg';
-import p4 from './8.jpg';
 import p45 from './45.jpg';
 
 import { Link } from "react-router-dom";
@@ -20,9 +16,9 @@ import ReactPaginate from 'react-paginate';
 import Card from "../Card/Card";
 import CardHeader from "../Card/CardHeader.js";
 
-import CardMedia from '@material-ui/core/CardMedia';
 
-import CardContent from '@material-ui/core/CardContent';
+
+
 import Typography from '@material-ui/core/Typography';
 import CardBody from "../Card/CardBody.js";
 import GridItem from "../Grid/GridItem";
@@ -158,8 +154,8 @@ class BlogCat extends Component
     const classes = useStyles;
 
       
-    const { shopingfiles, loading } = this.props.shopingfile;
-    const { isAuthenticated, user } = this.props.auth;
+    const { shopingfiles } = this.props.shopingfile;
+    const { isAuthenticated } = this.props.auth;
 
 
     const { currentPage, todosPerPage } = this.state;

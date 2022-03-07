@@ -8,14 +8,11 @@ import Grid from '@material-ui/core/Grid';
 
 import Card from "../Card/Card";
 import CardHeader from "../Card/CardHeader.js";
-import CardBody from "../Card/CardBody.js";
-import GridItem from "../Grid/GridItem";
-import GridContainer from "../Grid/GridContainer.js";
 
 import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
 
-import ListSubheader from '@material-ui/core/ListSubheader';
+
 
 //import Card from '@material-ui/core/Card';
 ///import CardHeader from '@material-ui/core/CardHeader';
@@ -29,23 +26,14 @@ import { red } from '@material-ui/core/colors';
 
 
 
-import p1 from './5.jpg';
-import p2 from './6.jpg';
-import p3 from './7.jpg';
-import p4 from './8.jpg';
 import p45 from './45.jpg';
 
 import { Link } from "react-router-dom";
-import { connect } from "react-redux"
-import PropTypes from "prop-types";
 
 import { getCurrentShoping } from "../../actions/shopingActions";
-import { logoutUser } from '../../actions/authActions';
+
 import ReactPaginate from 'react-paginate';
 
-import Cateblog from './detblog/Cateblog';
-import Posts from '../post/Post';
-import { Hidden } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   root3: {
@@ -130,11 +118,7 @@ const Blog3 = () => {
   };
 
 
-  const seleccion = (event) => {
-    event.preventDefault();
-    let op = event.target.value;
-    settodosPerPage(op)
-  };
+  
 
 
   const classes = useStyles();

@@ -1,6 +1,6 @@
 
 import React, { Component } from "react";
-import {Slide,Slider,Caption,SideNav,SideNavItem, Icon,Collapsible,CollapsibleItem,Dropdown,Divider } from 'react-materialize';
+import {Slide,Slider,Caption } from 'react-materialize';
 
 import M from  'materialize-css/dist/js/materialize.min.js';
 //import Image from './Image'
@@ -8,13 +8,13 @@ import p1 from './5.jpg';
 import p2 from './6.jpg';
 import p3 from './7.jpg';
 import p4 from './8.jpg';
-import { Link } from "react-router-dom";
-import { useMediaQuery, Grid, Typography  } from '@material-ui/core';
+
+import {  Grid, Typography  } from '@material-ui/core';
 
 import Card from "../Card/Card";
 import CardHeader from "../Card/CardHeader.js";
 import CardBody from "../Card/CardBody.js";
-import CardFooter from "../Card/CardFooter.js";
+
 import GridItem from "../Grid/GridItem";
 import GridContainer from "../Grid/GridContainer.js";
 
@@ -54,10 +54,10 @@ class Menu extends Component
             <Slide image={<img  alt={p1} src={p1} />}>
                 <Caption>
                     <h3>
-                        Municipalidad Distrital de Chamaca !
+                        ACCESORIOS SF SYSTEM SAC !
                     </h3>
                     <h5 className="light grey-text text-lighten-3">
-                           Un nuevo comienzo para un fururo mejor
+                           Nuetra preocupacion Usted
                     </h5>
                 </Caption>
             </Slide>
@@ -84,7 +84,7 @@ class Menu extends Component
             <Slide image={<img  alt={p4} src={p4} />}>
                 <Caption>
                     <h3>
-                        Inciando Obras!
+                        Ofrecmos Facturacion Electronica !
                     </h3>
                     <h5 className="light grey-text text-lighten-3">
                         Inicamos hoy mismo .
@@ -116,7 +116,7 @@ class Menu extends Component
                                               Presentación:                                    
                                         </Typography> 
                                         <Typography variant="body1" gutterBottom aling='center'>
-                                             Bienvenido a la Municipalidad Distrital de Chamaca, aquí trabajamos para promover e impulsar el desarrollo socioeconómico, sostenido y armónico de nuestro distrito. Nuestra gestión trabaja bajo un lineamiento democrático, responsable y participativo que busca impulsar obras de infraestructura básica, mejorando la calidad de vida, contribuyendo a la reducción de la pobreza extrema mediante la iniciación de los recursos y promoviendo la inversión privada y el turismo.
+                                             Bienvenido a Accesoriso Sf System SAC, aquí trabajamos para promover e impulsar el desarrollo socioeconómico, sostenido y armónico de nuestros clientes. Nuestra gestión trabaja bajo un lineamiento democrático, responsable y participativo que busca impulsar mejoras .
                                              <br/>                                             
                                              <br/>                                                                                          
                                              Sea bienvenido aquí encontrará todo la información sobre nuestro trabajo y podrá brindarnos su aporte para seguir creciendo.                                      
@@ -137,7 +137,7 @@ class Menu extends Component
                                             Nuestra Visión:                                  
                                         </Typography>  
                                          <Typography variant="body1" gutterBottom aling='center'>
-                                            Constituirnos como la municipalidad líder en la región y ser reconocidos por la mejora constante en nuestra labor proactiva y eficiente ofrecida por nuestros trabajadores altamente calificados a favor del bienestar de nuestra población.
+                                            Constituirnos como una empresa que brinda ayuda a los clientes  y ser reconocidos por la mejora constante en nuestra labor proactiva y eficiente ofrecida por nuestros trabajadores altamente calificados a favor del bienestar de nuestra población.
                                             <br/>                                             
                                             <br/>                                                                                                                                   
                                          </Typography> 

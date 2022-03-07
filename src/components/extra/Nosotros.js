@@ -1,6 +1,6 @@
 
 import React, { Component } from "react";
-import {Slide,Slider,Caption,SideNav,SideNavItem, Icon,Collapsible,CollapsibleItem,Dropdown,Divider } from 'react-materialize';
+import {Slide,Slider,Caption } from 'react-materialize';
 
 import M from  'materialize-css/dist/js/materialize.min.js';
 //import Image from './Image'
@@ -54,10 +54,10 @@ class Menu extends Component
             <Slide image={<img  alt={p1} src={p1} />}>
                 <Caption>
                     <h3>
-                        Municipalidad Distrital de Chamaca !
+                        Accesorios SF System SAC!
                     </h3>
                     <h5 className="light grey-text text-lighten-3">
-                           Un nuevo comienzo para un fururo mejor
+                           Nuestra Preocupacion Usted
                     </h5>
                 </Caption>
             </Slide>
@@ -84,7 +84,7 @@ class Menu extends Component
             <Slide image={<img  alt={p4} src={p4} />}>
                 <Caption>
                     <h3>
-                        Inciando Obras!
+                        Facturacion Electronica
                     </h3>
                     <h5 className="light grey-text text-lighten-3">
                         Inicamos hoy mismo .
@@ -99,7 +99,7 @@ class Menu extends Component
                         <Grid item xs={12} sm={4} data-aos="fade-up">
                         <Card>
                             <CardHeader color="info">
-                            <h4 >Alcalde</h4>
+                            <h4 >Creacion</h4>
                             <p >Información</p>
                             </CardHeader>
                         
@@ -108,14 +108,16 @@ class Menu extends Component
                             <GridContainer>
                                 <GridItem xs={12} sm={12} >                                
                                         <Typography variant="h6" gutterBottom aling='center'>
-                                            ALCALDE : ANTONIO HUAMAN ARIAS                                    
+                                            GERENTE : FRANCISCO LEO CHAMBI VILCA                                    
                                         </Typography> 
                                         <Typography variant="body1" gutterBottom aling='center'>
 
-                                          Nació el 12 de junio 1972 en el Sector de Alcayhuarmi - Comunidad Ingata , estudió  en el Colegio de Santo Tomas,
-                                          asimismo, posee una amplia experiencia en el sector público, 
-                                          fue Sub Gerente de Desarollo Social en LLusco, Trabajo en la Municipalidad de Livitaca, Colquemarca, y 
-                                          tambien en la Municipalidad Provincial de Chumbivilcas.                                  
+                                          Nuestra  empresa Nace con la finalidad de entregar al usuario los ACCESORIOS Y DEMAS componentes
+                                          dedicados a las computadoras ofreciendoles una satisfaccionen el uso de los mismos.
+                                          Tambien dedicamos tiempo para Brindarles el servicio de Programas de Computadora para Realizar Facturacion Electronica
+                                          TOTALMENTE GRATIS... solo debera de registrarse y realizar su pedido por nuestra mesa de parte virtual en ella le daremos 
+                                          mas informacion sobre este bebeficio.
+                                          
                                          </Typography>  
                                 </GridItem>                            
                             </GridContainer>                                        
@@ -141,10 +143,10 @@ class Menu extends Component
                             <GridContainer>
                                 <GridItem xs={12} sm={12} >
                                 <Typography variant="h6" gutterBottom aling='center'>
-                                            ALCALDE : ANTONIO HUAMAN ARIAS                                    
+                                            GERENTE  : FRANCISCO LEO CHAMBI VILCA                                    
                                         </Typography> 
                                         <Typography variant="body1" gutterBottom aling='center'>
-                                                  PRESENTAMOS LA LISTA DE REGIDORES    
+                                                  LISTA DE COLABORADORES
                                                                         
                                          </Typography>  
 
@@ -155,7 +157,7 @@ class Menu extends Component
                             </CardBody>
                             <CardFooter>
 
-                              <Link to="/regidores" >Ver Lista de Regidores</Link>   
+                              <Link to="/regidores" >Ver Lista de colaboradores</Link>   
                             
                             </CardFooter>
                         
@@ -165,7 +167,7 @@ class Menu extends Component
                         <Grid item xs={12} sm={4} data-aos="fade-up">
                         <Card>
                             <CardHeader color="info">
-                            <h4 >Identidad Municipal</h4>
+                            <h4 >Identidad </h4>
                             <p >Información</p>
                             </CardHeader>
                         
@@ -177,12 +179,9 @@ class Menu extends Component
                                     <div className="col l3 m3 s12">                                             
                                         <ul >
                                              <li>
-                                               <Link to="/personal" >Sub-Gerencias Y Personal Encargado</Link>                                                                                                                                                 
+                                               <Link to="/personal" >Personal Encargado</Link>                                                                                                                                                 
                                              </li>
-                                             <li>
-                                               <Link to="/organigrama" >Organigrama</Link>                                                                                                     
-                                            </li>
-                                            
+                                             
                                             <li>
                                                <Link to="/mision" >Misión y Visión</Link>                                                                                                     
                                             </li>
@@ -192,10 +191,10 @@ class Menu extends Component
                                             
                                             </li>                            
                                             <li>
-                                               <Link to="/simbolos" >Simbolos del distrito</Link>                                                                                                     
+                                               <Link to="/simbolos" >Simbolos </Link>                                                                                                     
                                             </li>
                                             <li>
-                                               <Link to="/alcaldes" >Alcaldes Electos de la Municipalidad</Link>                                                                                                     
+                                               <Link to="/alcaldes" >Integrantes </Link>                                                                                                     
                                             </li>
                                             
                                             

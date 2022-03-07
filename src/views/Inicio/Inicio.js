@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Slide,Slider,Caption,SideNav,SideNavItem, Icon,Collapsible,CollapsibleItem,Dropdown,Divider } from 'react-materialize';
+import {Slide,Slider,Caption } from 'react-materialize';
 
 import M from  'materialize-css/dist/js/materialize.min.js';
 //import Image from './Image'
@@ -7,7 +7,7 @@ import p1 from './1.jpg';
 import p2 from './2.jpg';
 import p3 from './3.jpg';
 import p4 from './4.jpg';
-import { Link } from "react-router-dom";
+
 
 //import Button from "../CustomButtons/Button.js";
 
@@ -48,10 +48,10 @@ options={{
             <Slide image={<img  alt={p1} src={p1} />}>
                 <Caption>
                     <h1 >
-                      Municipalidad Distrital de Chamaca!
+                        Accesorios Sf System SAC
                     </h1>
                     <h5  > 
-                        Un Nuevo Comienzo para un Futuro mejor
+                        Nuestra Preocupacion Usted Mismo
                     </h5>
                 </Caption>
             </Slide>
@@ -68,16 +68,16 @@ options={{
            <Slide image={<img  alt={p3} src={p3} />} >
                 <Caption placement="right">
                     <h3>
-                      Inagurando .
+                       Ofrecemos Servidores
                     </h3>
                     <h5 className="light grey-text text-lighten-3">
-                        Obras Recientes                    </h5>
+                        Instalados por nosotros mismos                    </h5>
                 </Caption>
             </Slide>
             <Slide image={<img  alt={p4} src={p4} />}>
                 <Caption>
                     <h3>
-                       Inicando Actividades!
+                       Ofrecemos Facturacion Electronica !
                     </h3>
                     <h5 className="light grey-text text-lighten-3">
                       Empezamos  hoy mismo .
@@ -87,16 +87,16 @@ options={{
          </Slider>
 
          <h6 className="align center" >
-             Municipalidad Distrital de Chamaca
+             Accesorios Sf System SAC
 
          </h6>
          <h5 className="align center"  >
-												Chamaca -Chumbivilcas-Cusco
+										Cerro Colorado - Arequipa - Arequipa
 
          </h5>
 
          <h6 className="align center" >
-                    Un Nuevo Comienzo para un futuro Mejor									</h6> 
+                    Pensando en Usted ...	</h6> 
 
          <br></br>
          <br></br>

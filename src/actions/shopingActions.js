@@ -13,34 +13,10 @@ import {
 } from "./types";
 
 
-//let unidad="https://localhost";
-//let unidad="https://adryan2.sytes.net:5000";
-
-
-//let unidad="https://apisfsystem.herokuapp.com";
-
-//let unidad="https://adryan2.sytes.net:7001";
-
 
 import { unidad } from "../variables";
 
 
-/*
-
-
-export const addTipos = (eduData, history) => dispatch => {
-  axios
-    .post("https://adryan2.sytes.net:3000/api/tipos", eduData)
-    .then(res => history.push("/dashboard"))
-    .catch(err =>
-      dispatch({
-        type: GET_ERRORS,
-        payload: err.response.data
-      })
-    );
-};
-
-*/
 export const addShoping = (eduData, cate, nimagen, ndata, flag, history) => dispatch => {
 
   console.log(eduData)

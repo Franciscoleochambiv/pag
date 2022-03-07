@@ -1,10 +1,10 @@
 //import React, { useState} from 'react';
 
 import React, { useState, useEffect } from "react";
-import { useForm } from 'react-hook-form';
+
 //simport {Button} from 'primereact/button';
 
-import { getCurrentShoping, addShoping } from "../actions/shopingActions";
+import {  addShoping } from "../actions/shopingActions";
 
 import Spinner from "./common/Spinner.js";
 
@@ -27,7 +27,7 @@ import { useDispatch, useSelector } from 'react-redux'
 
 import ViewShoping from "./extra/ViewShoping";
 
-import { Link } from 'react-router-dom';
+
 
 import MenuItem from '@material-ui/core/MenuItem';
 
@@ -86,11 +86,11 @@ const Shoping = () => {
 
 
   const ruta = "https://adryan3.sytes.net/upload/";
-  let unidad = "https://adryan2.sytes.net:7001";
+  
   let unidad2 = "https://adryan3.sytes.net:7008";
 
-  const { register, errors, handleSubmit } = useForm();
-  const [Entradas, setEntradas] = useState([]);
+  
+  
 
 
   const [file, setFile] = useState("");
@@ -268,28 +268,7 @@ const Shoping = () => {
   }
 
 
-  const onSubmit = (data, e) => {
-    console.log(data)
-    setEntradas([
-      ...Entradas,
-      data
-    ])
-
-    console.log(data)
-    dispatch(addShoping(data))
-
-
-    e.target.reset();
-  }
-
-
-
-  const datavisible = () => {
-    let data2 = dispatch(getCurrentShoping())
-
-
-
-  }
+  
 
 
   const [datos, setDatos] = useState({

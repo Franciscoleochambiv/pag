@@ -8,11 +8,6 @@ import Icon from "@material-ui/core/Icon";
 import Store from "@material-ui/icons/Store";
 import Warning from "@material-ui/icons/Warning";
 import DateRange from "@material-ui/icons/DateRange";
-import LocalOffer from "@material-ui/icons/LocalOffer";
-import Update from "@material-ui/icons/Update";
-
-
-import Accessibility from "@material-ui/icons/Accessibility";
 
 // core components
 import GridItem from "components/Grid/GridItem.js";

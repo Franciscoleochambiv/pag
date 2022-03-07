@@ -13,16 +13,12 @@ import Spinner from "../common/Spinner.js";
 
 
 
-import Modal, { ModalHeader, ModalBody, ModalFooter } from '../Modal/Modal.js';
+import Modal from '../Modal/Modal.js';
 
 
 //import Modal from '@material-ui/core/Modal';
 //import Example from "../components/Modal/Example.js";
 
-import Input from "@material-ui/core/Input";
-import Button from "../CustomButtons/Button.js";
-import Select from "@material-ui/core/Input";
-import styles from "../../assets/jss/material-dashboard-react/components/tableStyle.js";
 
 
 import { makeStyles } from "@material-ui/core/styles";
@@ -35,13 +31,6 @@ import CardHeader from "../Card/CardHeader.js";
 import CardBody from "../Card/CardBody.js";
 
 
-import TableContainer from '@material-ui/core/TableContainer';
-import Table from '@material-ui/core/Table';
-import Paper from '@material-ui/core/Paper';
-import EditIcon from '@material-ui/icons/Edit';
-import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
-import SaveIcon from '@material-ui/icons/Save';
-import CancelIcon from '@material-ui/icons/Cancel';
 
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
@@ -263,11 +252,7 @@ class ViewShoping extends Component {
 
     const classes = useStyles;
 
-    const dialogFooter = (
-      <div>
-      </div>
-    );
-
+    
 
     const { shopingfiles, loading } = this.props.shopingfile;
     const { currentPage, todosPerPage } = this.state;

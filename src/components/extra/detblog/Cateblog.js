@@ -117,7 +117,7 @@ class Cateblog extends Component {
 
           
             const { categoriafiles, loading } = this.props.categoriafile;
-            const { currentPage, todosPerPage } = this.state;
+            
 
             
           

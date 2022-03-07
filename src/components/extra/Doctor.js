@@ -1,6 +1,6 @@
 
 import React, { Component } from "react";
-import {Slide,Slider,Caption,SideNav,SideNavItem, Icon,Collapsible,CollapsibleItem,Dropdown,Divider } from 'react-materialize';
+import {Slide,Slider,Caption } from 'react-materialize';
 
 import M from  'materialize-css/dist/js/materialize.min.js';
 //import Image from './Image'
@@ -9,12 +9,12 @@ import p2 from './6.jpg';
 import p3 from './7.jpg';
 import p4 from './8.jpg';
 import { Link } from "react-router-dom";
-import { useMediaQuery, Grid, Typography  } from '@material-ui/core';
+import {  Grid, Typography  } from '@material-ui/core';
 
 import Card from "../Card/Card";
 import CardHeader from "../Card/CardHeader.js";
 import CardBody from "../Card/CardBody.js";
-import CardFooter from "../Card/CardFooter.js";
+
 import GridItem from "../Grid/GridItem";
 import GridContainer from "../Grid/GridContainer.js";
 

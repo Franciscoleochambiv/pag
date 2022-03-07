@@ -2,10 +2,6 @@ import axios from "axios";
 
 
 
-//let unidad="https://localhost";
-//let unidad="https://adryan2.sytes.net:5000";
-//let unidad="https://apisfsystem.herokuapp.com";
-//let unidad="https://adryan2.sytes.net:7001";
 
 import { unidad } from "../variables";
 

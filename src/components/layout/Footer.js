@@ -5,7 +5,7 @@ export default () => {
   return (
     <div   >
    
-       <div className="page-footer font-small indigo">
+       <div className="page-footer font-small blue">
           <div className="container text-center text-md-left"> 
            <div className="row">
 
@@ -13,23 +13,9 @@ export default () => {
                           <h6 className="font-weight-bold text-uppercase mt-3 mb-4">Servicios</h6>
                           <ul >
                             <li>
-                              <a  target='_blank' style={{color:'white' }} href="https://mesadeparteschamaca.sytes.net">Mesa de Partes Virtual</a>
+                              <a  target='_blank' style={{color:'white' }} href="">Mesa de Partes Virtual</a>
                             </li>
-                            <li>
-                                <Link style={{color:'white' }}  to="/construccion" >Seguimiento de Documentos MPV</Link>                                                               
-                            </li>
-                            <li>
-                                <Link style={{color:'white' }}  to="/construccion" >Requerimiento Bienes y Servicios</Link>                                                               
-                            </li>                            
-                            <li>
-                                <Link style={{color:'white' }}  to="/construccion" >Licencias de Funcionamiento /Edificaciòn</Link>                                 
-                              
-                            </li>
-                               <Link style={{color:'white' }}  to="/construccion" >Consulta trámite documentario</Link>                                 
-                            <li>
-                              
-                            </li>
-                            
+                                                        
                           </ul>
 
                     </div>
@@ -39,16 +25,9 @@ export default () => {
                             <h6 className="font-weight-bold text-uppercase mt-3 mb-4">SOCIALES</h6>
                             <ul >
                               <li>
-                                 <Link style={{color:'white' }}  to="/seguridadciudadana" >Seguridad Ciudadana</Link>                                 
+                                 <Link style={{color:'white' }}  to="/seguridadciudadana" >Redes Sociales</Link>                                 
                               </li>
-                              <li>
-                                 <Link style={{color:'white' }}  to="/doctor" >Doctor en Casa</Link>                                 
-                              
-                              </li>
-                              <li>
-                                  <Link style={{color:'white' }}  to="/trabajaperu" >Trabaja Peru</Link> 
-                                
-                              </li>
+                             
                               
                             </ul>
                     </div>

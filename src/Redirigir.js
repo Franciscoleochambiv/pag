@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 //import {  logoutUser } from './actions/authActions';
 import { useHistory } from "react-router-dom";
@@ -9,7 +9,7 @@ const Redirigir = () =>{
   
   let  history = useHistory();
   const loggedInUser = useSelector (store => store.auth.isAuthenticated) 
-  const loggedInName = useSelector (store => store.auth.user)  
+  
   let dashbo=""
   
   if (loggedInUser){
